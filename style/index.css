@@ -1,6 +1,17 @@
 body{
     font-family: 10px montserrat,sans-serif;
 }
+#extra_gap{
+    height: 100px;
+    width: 100%;
+}
+#navbar{
+  overflow: hidden;
+  /* background-color: #333; */
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+}
 #top_nav{
     height: 25px;
     width: 100%;
@@ -16,6 +27,7 @@ body{
     height: 52px;
     display: flex;
     justify-content: space-around;
+    background-color: #ffffff;
     
 }
 #ancors{
@@ -90,13 +102,15 @@ a{
     margin-right: 7px;
     
 }
+#tags{
+    background-color: #ffffff;
+}
 #tags2{
     font-family: 10px montserrat,sans-serif;
     display: flex;
     justify-content: center;
     column-gap: 50px;
     font-size: larger;
-    margin-top: 15px;
     cursor: pointer;
     
 }
@@ -104,7 +118,7 @@ a{
     font-size: 20px;
     text-decoration: none;
 }
-.aa {
+ .aa {
     display: inline-block;
     position: relative;
     color: 
@@ -119,17 +133,16 @@ a{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: 
-  #f0cd33;
-    transform-origin: bottom right;
+    background-color: #f0cd33;
+    transform-origin: bottom right ;
     transition: transform 0.25s ease-out;
   }
   .aa:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+    
+  } 
 #slider{
-    /* border: 1px solid blue; */
     height: 542px;
     margin-top: 22px;
     display: flex;
