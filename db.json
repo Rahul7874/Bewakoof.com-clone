@@ -1,0 +1,17 @@
+{
+    "Tshirts":[
+        {
+            "img":"https://images.bewakoof.com/t320/killmonger-half-sleeve-t-shirt-509349-1655101044-1.jpg",
+            "name":"mens",
+            "price":499,
+            "tribe":"469 for tribe member"
+
+        },
+        {
+            "img":"https://images.bewakoof.com/t320/killmonger-half-sleeve-t-shirt-509349-1655101044-1.jpg",
+            "name":"mens",
+            "price":499,
+            "tribe":"469 for tribe member" 
+        }
+    ]
+}
