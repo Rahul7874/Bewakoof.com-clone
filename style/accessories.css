@@ -1,0 +1,46 @@
+#img4_div{
+    margin-top: 60px;
+}
+#scroll{
+    height: 341px;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.scroll_i{
+    height: 272px;
+    width: 201px;
+    margin: 0px;
+    transition:transform .2s; 
+}
+.scroll_i:hover{
+    transform: scale(1.1);
+}
+#img01{
+    height: 200px;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.img01_i{
+    height: 200px;
+    width: 150px;
+    margin: 0px;
+
+}
+#banner{
+    height: 524px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.ban01{
+    height: 524px;
+    width: 768px;
+    margin: 0px;
+}
