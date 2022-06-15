@@ -43,6 +43,17 @@ a{
     font-size: 12px;
     padding: 5px;
 }
+.aba{
+    text-decoration: none;
+    font-size: 14px;
+}
+#count{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-left: -10px;
+    color: red;
+}
 #imgg,img{
     width: 147px;
     height: 20px;

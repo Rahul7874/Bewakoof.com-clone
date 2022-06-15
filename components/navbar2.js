@@ -19,9 +19,9 @@ let navbar = () =>{
     </div>
 
     <div id="mwa">
-        <span>MEN</span>
-        <span>WOMEN</span>
-        <span>MOBILE COVERS</span>
+    <a class="aba" href="index.html"><span>MEN</span></a>
+    <a class="aba" href="women.html"><span>WOMEN</span></a>
+    <a class="aba" href="accessories.html"><span>MOBILE COVERS</span></a>
     </div>
 
     <div id="query">
@@ -35,8 +35,9 @@ let navbar = () =>{
             <span>Login</span>
         </div>
        <div>
-        <img class="dil_i" src="https://i.ibb.co/r5wJ842/Screenshot-32.png" alt="">
+        <a href="cart.html"><img class="dil_i" src="https://i.ibb.co/r5wJ842/Screenshot-32.png" alt=""></a>>
        </div>
+       <div id="count"></div>
         
     </div>`
 }

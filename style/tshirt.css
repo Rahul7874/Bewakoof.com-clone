@@ -7,6 +7,13 @@
   color: grey;
   cursor: pointer;
 }
+#count{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-left: -10px;
+    color: red;
+}
 #cont{
     height: 82px;
     width: 1170px;
@@ -19,11 +26,8 @@
 .s3103{
  color: grey;
 }
-#footer{
-    background-color: white;
-}
 #main2{
-    height: 2000px;
+    height: 900px;
     width: 1170px;
     margin: auto;
     /* border: 1px solid grey; */
@@ -62,20 +66,20 @@
 #sidemain2{
     /* border: 1px solid red; */
     width: 878px;
-    height: 500px;
+    height: 800px;
     margin-left: 30px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 25px;
+    overflow: scroll;
 
 }
 .appimg{
     height: 360px;
     width: 266px;
     margin: 0px;
-    cursor: pointer; 
-    
-}
+    cursor: pointer;
+ }
 #boxdiv{
 
     height: 84px;

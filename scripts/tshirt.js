@@ -1,6 +1,15 @@
 import navbar from "../components/navbar2.js";
 document.getElementById("navbar").innerHTML=navbar();
 
+var cartData = JSON.parse(localStorage.getItem("cart")) || [];
+let countdata =()=>{
+let length = cartData.length;
+ console.log(length);
+
+ document.getElementById("count").innerText=`${length}`
+}
+countdata();
+
 
 const fetchFun = async () => {
     try{
@@ -15,7 +24,9 @@ const fetchFun = async () => {
  
  }
  fetchFun();
- var cartData = JSON.parse(localStorage.getItem("cart")) || [];
+
+ 
+
   let appendFunction = (data)=>{
    data.forEach(function (elem) {
    let box = document.createElement("div");
@@ -69,9 +80,11 @@ let addToCart = (elem) => {
     cartData.push(elem);
     localStorage.setItem("cart", JSON.stringify(cartData));
     alert("item added to cart");
+    window.location.reload()
+    
   }
 
-// import footer from "../components/footer.js";
-// document.getElementById("footer").innerHTML=footer();
+import footer from "../components/footer.js";
+document.getElementById("footer").innerHTML=footer();
 
 

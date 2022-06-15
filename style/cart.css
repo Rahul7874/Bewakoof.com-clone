@@ -1,0 +1,14 @@
+#cartnav{
+    border: 1px solid grey;
+    height: 50px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.crtlog{
+    height: 30px;
+    width: 194px;
+    margin-left: 183px;
+    margin-top: 8px;
+}
