@@ -51,8 +51,13 @@ a{
     font-size: 25px;
     font-weight: bold;
     margin-top: 12px;
-    margin-left: -10px;
+    margin-left: -px;
     color: red;
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
 }
 #imgg,img{
     width: 147px;

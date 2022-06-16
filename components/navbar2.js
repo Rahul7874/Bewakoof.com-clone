@@ -35,7 +35,7 @@ let navbar = () =>{
             <span>Login</span>
         </div>
        <div>
-        <a href="cart.html"><img class="dil_i" src="https://i.ibb.co/r5wJ842/Screenshot-32.png" alt=""></a>>
+        <a href="cart.html"><img class="dil_i" src="https://i.ibb.co/r5wJ842/Screenshot-32.png" alt=""></a>
        </div>
        <div id="count"></div>
         
