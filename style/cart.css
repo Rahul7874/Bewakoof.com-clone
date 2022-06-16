@@ -35,8 +35,8 @@
     margin-top: -10px;
 }
 .divc1{
-    /* border: 1px solid blue; */
     margin-left: 11px;
+    height: 100%;
 }
 .divc2{
     height: 750px;
@@ -151,6 +151,7 @@
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 7px;
+    cursor: pointer;
 }
 #lastdivcart2{
     margin-left: 20px;
@@ -159,8 +160,9 @@
 }
 #subtotal{
     font-size: 20px;
-    margin-top: -20px;
+    margin-top: -15px;
     margin-left: 10px;
+    font-weight: 600;
 }
 .cplast{
     margin-left: -15px;
@@ -192,14 +194,93 @@
     
 }
 #cartappend{
+    
     display: grid;
-    grid-template-columns: 665px;
-    grid-template-rows: 224px;
+    grid-template-columns:repeat(1,fr);
     row-gap: 20px;
     margin-top: 20px;
+    height: 100%;
 }
 .cartalldata{
-    border: 1px solid #dfdfdf;
+    border: 1px solid rgb(188, 188, 188);
     border-radius: 5px;
-    display: flex;
+    height: 224px;
 }
+.cartpricedata{
+ height: 140px;
+ width: 633px;
+ margin: auto;
+ margin-top: 30px;
+ margin-left: 30px;
+ display: flex;
+ justify-content: space-between;
+}
+.cartpricedata1{
+ width: 438px;
+ height: 130px;
+}
+.cartpricedata2{
+    width: 104px;
+    height: 129px;
+    margin-right: 10px;
+   }
+ .appimg{
+    height: 129px;
+ } 
+ .cartpricedata3{
+ height: 25px;
+ } 
+ .cartpricedata4{
+    
+    height: 25px;
+    display: flex;
+ }
+ .cartpricedata5{
+    height: 25px;
+ }
+ .cartpricedata6{
+    height: 48px;
+    width: 220px;
+    margin-left: 20px;
+ }
+ .h3bew{
+    height: 48px;
+ }
+ .btndivcart{
+    width: 650px;
+    height: 50px;
+    display: flex;
+ }
+ .removebtn{
+    width: 225px;
+    border: none;
+    background-color: #ffff;
+    color: #00000080;
+    cursor: pointer;
+ }
+ .movetobtn{
+    width: 417px;
+    border: none;
+    background-color: #ffff;
+    color: #00000080;
+    cursor: pointer;
+ }
+ .p1tag{
+    margin-top: 0px;
+    color: #000000B3;
+ }
+ .p3p{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .p4p{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #9c9c9c;
+ }
+ .greentext{
+    margin: 5px;
+    color: #1D8802;
+    font-size: 14px;
+ }

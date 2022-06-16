@@ -3,6 +3,7 @@ document.getElementById("navbar").innerHTML=navbar();
 
 var cartData = JSON.parse(localStorage.getItem("cart")) || [];
 let countdata =()=>{
+    document.getElementById("count").innerHTML=null;
 let length = cartData.length;
  console.log(length);
 
@@ -79,8 +80,8 @@ let addToCart = (elem) => {
     console.log(elem);
     cartData.push(elem);
     localStorage.setItem("cart", JSON.stringify(cartData));
-    alert("item added to cart");
-    window.location.reload()
+    alert("Added To Cart");
+    countdata();
     
   }
 
